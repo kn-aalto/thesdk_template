@@ -3,19 +3,10 @@
 #Written by by Marko Kosunen, marko.kosunen@aalto.fi, 2017
 DIR=$( cd `dirname $0` && pwd )
 SUBMODULES="\
-    ./Entities/ads \
     ./Entities/rtl \
-    ./Entities/spice \
     ./Entities/thesdk \
-    ./Entities/inverter \
-    ./Entities/inverter_testbench \
-    ./Entities/inverter_tests \
-    ./Entities/myentity \
-    ./Entities/register_template \
-    ./Entities/ads_template \
-    ./thesdk_helpers \
-    ./doc/TheSyDeKick-roadshow \
-    ./doc/TheSyDeKick_tutorial \
+    ./Entities/adder_tb \
+    ./Entities/mul_tb \
 "
 
 git submodule sync
