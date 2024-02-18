@@ -7,3 +7,9 @@
 [submodule "Entities/rtl"]
 	path = Entities/rtl
 	url = git@github.com:TheSystemDevelopmentKit/rtl.git
+[submodule "Entities/mul_tb"]
+	path = Entities/mul_tb
+	url = git@github.com:arsh02/mul_tb.git
+[submodule "Entities/adder_tb"]
+	path = Entities/adder_tb
+	url = git@github.com:arsh02/adder_tb.git
