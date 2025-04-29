@@ -8,4 +8,4 @@ Entities/*/*.pdf
 doc/build/*
 doc/docstrings/build/*
 *tags
-
+doc/*
